@@ -1,0 +1,149 @@
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="../estilos/styles.css">
+</head>
+  
+<body>
+    <div class="titulo">
+		<img class="imagenlogo" src="../imagenes/imagenlogo.jpg"/>
+		<h1>AYACUCHO TENIS CLUB</h1>
+        <h3>==========ESCUELA DE TENIS===================== </h3>
+    </div>
+        
+         
+
+<div class="divCuerpoindex1"> 
+    
+  <div class="divizquierdaindex1">
+    <h2>Clases</h2>
+    <ul class="lista_cuadindex1">
+        <p>Inicio de actividades 1 de Marzo 2022</p>
+    <li>Infantiles</li>
+    <li>Adultos</li>
+    <li>Individuales y grupales</li>
+    </ul> 
+    <img class="imagen4" src=  "../imagenes/imagen4.jpg" /> 
+    </div>
+    <div class="divcentroindex1">
+        <h2>Horarios</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Edad</th>
+                    <th>Categoria</th>
+                    <th>Dia</th>
+                    <th>Horario</th>
+                    <th>Cuota</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Niños 6 a 8 años</td>
+                    <td>Principiantes</td>
+                    <td>Lunes y Miercoles</td>
+                    <td>10 hs</td>
+                    <td>$ 2.000</td>
+                </tr>
+                <tr>
+                    <td>Niños 6 a 8 años</td>
+                    <td>Adelantados</td>
+                    <td>Lunes y Miercoles</td>
+                    <td>11 hs</td>
+                    <td>$ 2.200</td>
+                </tr>
+                <tr>
+                    <td>Niños 9 a 12 años</td>
+                    <td>Principiantes</td>
+                    <td>Martes y Jueves</td>
+                    <td>10 hs</td>
+                    <td>$ 2.400</td>
+                </tr>
+                <tr>
+                    <td>Niños 9 a 12 años</td>
+                    <td>Adelantados</td>
+                    <td>Martes y Jueves</td>
+                    <td>11 hs</td>
+                    <td>$ 2.400</td>
+                </tr>
+                <tr>
+                    <td>Jovenes 13 a 18 años</td>
+                    <td>Principiantes</td>
+                    <td>Lunes y Miercoles</td>
+                    <td>14 hs</td>
+                    <td>$ 2.500</td>
+                </tr>
+                <tr>
+                    <td>Jovenes 13 a 18 años</td>
+                    <td>Adelantados</td>
+                    <td>Lunes y Miercoles</td>
+                    <td>15 hs</td>
+                    <td>$ 2.500</td>
+                </tr>
+                <tr>
+                    <td>Adultos</td>
+                    <td>Principiantes</td>
+                    <td>Lunes y Viernes</td>
+                    <td>16 hs</td>
+                    <td>$ 2.500</td>
+                </tr>
+                <tr>
+                    <td>Adultos</td>
+                    <td>Adelantados</td>
+                    <td>Lunes y Viernes</td>
+                    <td>17 hs</td>
+                    <td>$ 2.500</td>
+                </tr>
+            </tbody>
+        </table> 
+        <img class="pelotaraqueta" src=  "../imagenes/pelotaraqueta.jpg" />   
+        <button id="btnEnviar3"><a href="../index.html">Volver a pagina principal</a></button> 
+    </div>
+    
+    <div class="divderechaindex1">
+        <div class="formclases">
+        <form>
+        <h2>Inscripcion</h2>
+        <ul>
+        <form action="inscripcionClases" method="post">
+        <ul>
+         <li>
+           <label for="name">Nombre:</label>
+           <input type="text" id="name" name="user_name">
+         </li>
+         <li>
+           <label for="edad">Edad:</label>
+           <input type="number" id="edad" name="user_edad">
+         </li>
+         <li>
+           <label for="mail">Correo electrónico:</label>
+           <input type="email" id="mail" name="user_mail">
+         </li>
+        <h5>Seleccione categoria</h5>
+         <li><input type="radio" name="Categoria" id="principiante" value="Principiante"/>Principiante</li>
+         <li><input type="radio" name="Categoria" id= "adelantado" value="Adelantado"/>Adelantado</li>
+         <li><input type="radio" name="Categoria" id="clasePrueba" value="ClasePrueba"/>Clase de prueba gratis</li>
+        </li>
+       </ul>
+         <img class="imagen5" src=  "../imagenes/imagen5.jpg" />
+    <button id="btnEnviar1">Inscribirse</button>
+    <h5 id="mensaje"></h5>		 
+    </ul>
+     
+    </form>
+    </div>
+</div>
+</div>
+<div>
+
+    
+</div>
+
+<script src="./js/script.js"></script>
+ </body>
+ 
+</html>

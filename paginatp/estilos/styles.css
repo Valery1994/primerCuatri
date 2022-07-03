@@ -1,0 +1,335 @@
+.body {
+  font:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: #a3978c;
+}
+.titulo {
+ display: flex;  
+ justify-content: center;
+ height: 90px;
+ align-items: center;
+ background-color:  #9dbf4e ;
+color:#544240;
+}
+.tituloclases{
+  background-color:#9dbf4e  ;
+  height: 80px;
+}
+ .button:hover{
+  background-color: #6faae2;
+  width: 40%; 
+  height: 20%;
+}
+.divEncabezado {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  background-color:#444444;
+  width: 100%;
+  height: 50px;
+  border-radius: 3px;
+  padding: 1px;
+  margin: 5px 5px 3px 1px;
+  font-size: 15px;
+   
+}
+
+.divMenu1 {
+  background-color:#444444;
+  width: 20%;
+  height: 30px;
+  font-size: 20px;
+  color:#d1de48;
+  align-items: center; 
+  
+}
+.divMenu2 {
+  background-color: #444444;
+  width: 20%;
+  height: 30px;
+  font-size: 20px;
+  color:  #d1de48;
+  
+}
+.divMenu3 {
+  background-color:#444444 ;
+  width: 20%;
+  height: 30px;
+  font-size: 20px;
+  color:  #9dbf4e;
+}
+.divMenu4 {
+  background-color:#444444 ;
+  width: 20%;
+  height: 30px;
+  font-size: 20px;
+  color: #9dbf4e;
+}
+.divMenu5 {
+  background-color:#444444 ;
+  width: 20%;
+  height: 30px;
+  font-size: 20px;
+  color: #9dbf4e;
+}
+.divCuerpo1 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 400px;
+  color:rgb(71, 61, 61);
+  background-color: #444444;
+}
+.divizquierda {
+  width: 33%;
+  height: 97%;
+  background-color:   white ;
+  border-radius: 10px;
+  padding: 2px;
+  margin-top: 2px;
+  margin-right: 2px;
+  margin-left: 2px;
+  font-size: 22px;
+ }
+.divcentro {
+  width: 33%;
+  height: 97%;
+  background-color: white ;
+  border-radius: 5px;
+  padding: 2px;
+  margin-top: 2px;
+  margin-right: 2px;
+  margin-left: 2px;
+  font-size: 22px;
+}
+.divderecha {
+  width: 33%;
+  height: 97%;
+  background-color:  white ;
+  border-radius: 5px;
+  padding: 2px;
+  margin-top: 2px;
+  margin-right: 2px;
+  margin-left: 2px;
+  font-size: 22px;
+ }
+.divCuerpo2 {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  color:#444444;
+   border-radius: 3px;
+  margin: 2px 2px 5px 2px;
+  align-content: space-around;
+   
+}
+.divizquierda2 {
+  background-color:   #9dbf4e ;
+  width: 33%;
+  height: 100%;
+  border-radius: 3px;
+  padding: 2px;
+  margin-right: 5px;
+  align-items: center;
+  
+  
+}
+.divcentro2{
+  align-items: center;
+  background-color:   #9dbf4e ;
+  width: 33%;
+  height: 100%;
+  border-radius: 3px;
+  padding: 2px;
+  margin-right: 5px;
+}
+.divderecha2 {
+  background-color:   #9dbf4e ;
+  width: 33%;
+  height: 100%;
+  border-radius: 3px;
+  padding: 2px;
+  margin-right: 5px;
+}
+.contacto{
+ display: flex;
+ justify-content: space-evenly;
+} 
+ .tablaTurno{
+  width: 100%;
+  height: 100%;
+  }
+ footer{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly; 
+    align-content: center;
+    background-color: #444444;
+    height: 100Px;
+  }
+  iframe{
+    width: 35%;
+    height: 80%;
+    align-items:flex-end
+  }
+  h1 {
+    text-align: center;
+   font-size: 38px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color:  #444444 ;
+  }
+  h2 {
+    text-align: center;
+    font-family: "segoe UI";
+    color: white;
+    font-size: 20px; 
+    background-color: #9dbf4e ;
+  }
+  h3 {
+    font-family: "segoe UI";
+    text-align: center;
+    color: #444444;
+    font-size: 25px;
+    background-color: #9dbf4e;
+  }
+  h4{
+    font-family: "segoe UI";
+    text-align: center;
+    color: #444444;
+    font-size: 25px;  
+  }
+  h5{
+    font-family: "segoe UI";
+    text-align: center;
+    color:  #9dbf4e;
+    font-size: 25px; 
+  }
+  
+  p {
+    text-align: left;
+    font-family: "segoe UI";
+    font-size:  20px;
+    color:  white;
+    background-color: #9dbf4e;
+  }
+   
+  ul {
+    font-family: "segoe UI"; 
+    list-style-type: circle;
+    color:  #d1de48;
+    font-size: 17px;
+    background-color: #444444;
+    text-align: center;
+    padding: 5%;
+    border-radius: 3%;
+    margin: auto;
+  }
+  li{
+    text-align: left;  
+    margin-left: 4px;
+    ;
+  }
+   .imagen1{
+    width: 30%;
+    height: 30%;
+  }
+  .imagen2{
+    width: 80%;
+    height: 100%;
+  }
+  .imagen3{
+    width: 100%;
+    height: 70%;
+  }
+  .imagen4{
+    width: 100%;
+    height: 47%;
+  }
+  .imagen5{
+    width: 20%;
+    height: 10%;
+  }
+  .imagenlogo{
+    width: 70px;
+    height: 70px;
+  }
+  .imagennadal{
+    width: 60%;
+    height: 100%;
+  }
+  .imagen8{
+    width: 100%;
+    height: 80%;
+     
+  }
+  .cancha{
+width: 80%;
+height: 100%;
+
+  }
+  .imagen10{
+    width: 30%;
+    height: 20%;
+  }
+  .pelotaCopa{
+    width: 20%;
+    height: 20%;
+  }
+  .tenisFan{
+    width: 35%;
+    height: 35%;
+  }
+  th{
+    background-color: #9dbf4e;
+    color:white;
+  }
+  tbody{
+    color:#090a05
+  }
+  table, td,tr{
+    background-color: #e4ecd1; 
+    border: 2px solid black;
+    border: collapse;
+     }
+    .divCuerpoindex1{
+      display: flex;
+      width: 100%; 
+      height: 500px;
+      background-color: #444444;
+      }
+    .divizquierdaindex1{
+      background-color:white;
+      width: 50%;
+      height: 100%;
+    }
+    .divcentroindex1{
+      width: 60%;
+      height: 100%;
+      background-color:white;
+      align-content: space-around;
+    }
+    .divderechaindex1{
+      width: 55%;
+      height: 100%;
+      background-color:white;
+    }
+    .lista_cuadindex1{
+      width: 90%;
+    }
+    .tabla{
+      width: 100%;
+      height: 100%;
+    }
+    .formclases{
+      width: 100%;
+      height: 100%;
+    }
+    a{
+      text-decoration: none;
+      color:  #9dbf4e;
+      background-color: #444444;
+    }
+
+  
+  
+  
