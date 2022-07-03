@@ -179,8 +179,8 @@ color:#544240;
     color:  #444444 ;
   }
   h2 {
-    text-align: center;
     font-family: "segoe UI";
+    text-align: center;
     color: white;
     font-size: 20px; 
     background-color: #9dbf4e ;
@@ -209,13 +209,16 @@ color:#544240;
     text-align: left;
     font-family: "segoe UI";
     font-size:  20px;
-    color:  white;
-    background-color: #9dbf4e;
+    color:   #444444;
+    background-color: white;
+  }
+  noticias {
+    font-size: 12px;
   }
    
   ul {
-    font-family: "segoe UI"; 
-    list-style-type: circle;
+     
+    list-style-type: none;
     color:  #d1de48;
     font-size: 17px;
     background-color: #444444;
@@ -227,7 +230,7 @@ color:#544240;
   li{
     text-align: left;  
     margin-left: 4px;
-    ;
+   list-style-type: none;
   }
    .imagen1{
     width: 30%;
@@ -329,7 +332,6 @@ height: 100%;
       color:  #9dbf4e;
       background-color: #444444;
     }
-
-  
+     
   
   
