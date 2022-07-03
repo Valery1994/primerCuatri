@@ -18,8 +18,7 @@
     <div class="divizquierda">
 <form action="Inscripcion torneo">
     <h2>Inscripcion</h2>
-         
-        <ul>
+         <ul>
          <li>
            <label for="name">Nombre:</label>
            <input type="text" id="name" name="user_name">
@@ -32,42 +31,42 @@
            <label for="mail">Correo electrónico:</label>
            <input type="email" id="mail" name="user_mail">
          </li>
-   <li> <label for="torneo">Elegi formato de torneo:</label>
-<input placeholder="Elegi el torneo"
-list="torneo" name="torneo" id="torneo">
-<datalist id="torneo">
-    <option value="Single Damas">
-    <option value="Single Caballeros">
-    <option value="Doble Damas">
-    <option value="Doble caballeros">
-    <option value="Doble mixtos">
-</datalist></li>
-<li><label for="fecha">Selecciona fecha de proximos torneos:</label>
-<input placeholder="Selecciona la fecha"
-list="fechas" name="fechas" id="fechas">
-<datalist id="fechas">
-    <option value="4 de Julio de 2022">
-    <option value="13 de Agosto">
-     </datalist></li>
-<li><label for="categoria">Selecciona categoria:</label>
-<input placeholder="Selecciona categoria"
-list="categoria" name="categoria" id="categoria">
-<datalist id="categoria">
-    <option value="A">
-    <option value="B">
-    <option value="C">
-</datalist></li>
-</form>
+         <li><label for="torneo">Selecciona formato de torneo:</label>
+            <input placeholder="Selecciona torneo" list="torneos" name="torneo" id="torneo">
+            <datalist id="torneos">
+            <option value="Single Damas">
+            <option value="Single Caballeros">
+            <option value="Doble Damas">
+            <option value="Doble caballeros">
+            <option value="Doble mixtos">
+        </datalist></li>
+        <li><label for="fecha">Selecciona fecha:</label>
+        <input placeholder="Selecciona la fecha" list="fechas" name="fecha" id="fecha">
+        <datalist id="fechas">
+            <option value="4 de Julio de 2022">
+            <option value="13 de Agosto">
+        </datalist></li>
+        <li><label for="categoria">Selecciona categoria:</label>
+        <input placeholder="Selecciona categoria" list="categorias" name="categoria" id="categoria">
+        <datalist id="categorias">
+            <option value="A">
+            <option value="B">
+            <option value="C">
+        </datalist></li>
+    </form>
+<button>Enviar inscripcion</button>
 </div>
 <div class="divcentro">
     <img class="imagen8" src=  "../imagenes/imagen8.jpg" />
     <button> <a href="../index.html">Volver a pagina Principal</a></button>
 </div>
 <div class="divderecha">
-    <p style="font-size: 25px; text-align: center;"><u>Proximo torneo</u></p> 
+    <p style="font-size: 25px; text-align: center;"><u>Proximos torneos</u></p> 
     <p>Copa "Full Stack" -4 de Julio de 2022</p>
-    <p></p>
+    <p>Copa "Globant" -13 de Agosto de 2022</p>
 </div>
+</div>
+ 
 <script src="./js/script.js"></script>
  </body>
  
