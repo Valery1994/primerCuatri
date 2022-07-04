@@ -4,16 +4,13 @@ let principiante =document.getElementById("principiante") ;
 let adelantado = document.getElementById("adelantado")  
 let clasePrueba =document.getElementById("clasePrueba")  ;
 let mensaje =  document.getElementById("mensaje");
- 
  botonInscripcion.addEventListener("click", (e)=>{ 
   e.preventDefault();
-     
 if((principiante.checked==true )&& ((Number(edad.value)) <= 8)){
     console.log(edad.value)
     alert("Inscripcion realizada con exito, su horario de clases es: Lunes y miercoles a las 10 hs. ")
     mensaje.innerHTML =
       " Inscripcion realizada con exito, su grupo es Principiantes 6-8 años y su horario de clases es: Lunes y miercoles a las 10 hs.";
-
 }else if((adelantado.checked==true )&& ((Number(edad.value)) <= 8)){
     console.log(edad.value)
     alert("Inscripcion realizada con exito, su horario de clases es: Lunes y miercoles a las 11 hs. ")
